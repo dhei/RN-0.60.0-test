@@ -24,7 +24,10 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import Analytics from 'appcenter-analytics';
+
 const App = () => {
+  Analytics.trackEvent('RN060 event', { Key1: 'val', Key2: '100' });
   return (
     <Fragment>
       <StatusBar barStyle="dark-content" />
