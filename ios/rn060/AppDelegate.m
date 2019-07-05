@@ -11,9 +11,9 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 #import <AppCenterReactNativeShared/AppCenterReactNativeShared.h>
-#import <AppCenterReactNative/AppCenterReactNative.h>
-#import <AppCenterReactNativeAnalytics/AppCenterReactNativeAnalytics.h>
-#import <AppCenterReactNativeCrashes/AppCenterReactNativeCrashes.h>
+#import "AppCenterReactNative.h"
+#import "AppCenterReactNativeAnalytics.h"
+#import "AppCenterReactNativeCrashes.h"
 @import AppCenter;
 
 @implementation AppDelegate
@@ -21,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   [MSAppCenter setLogLevel: MSLogLevelVerbose];
-  
+
   [AppCenterReactNativeCrashes register];  // Initialize AppCenter crashes
   
   [AppCenterReactNativeAnalytics registerWithInitiallyEnabled:true];  // Initialize AppCenter analytics

@@ -188,9 +188,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AppCenter: 21decaa4488024e8355e650e44ccabb69ca60d47
-  appcenter: ce6c59f105bba1322c2aa055d225601b3cd0a6ce
-  appcenter-analytics: 5341c87033f175ce263c1901e26e2b3f41653b12
-  appcenter-crashes: 5b938918e8a78258368b956d98edd97608d5f5c4
+  appcenter: 751d5e9592c58768f1ddeb1574c7eaa83d0c3176
+  appcenter-analytics: 06f728fa22f6a5043c989bcbadd7946f19f41347
+  appcenter-crashes: a2be5031df97dcab4357f429e74cec4c67f4d158
   AppCenterReactNativeShared: 6e856a993f022a2a7afaa1bc21834d4dded708b2
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2

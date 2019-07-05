@@ -20,6 +20,7 @@
 		809316DF47C50BEE5726B651 /* libPods-rn060-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5440DCB4F82E49A1E10FAC9B /* libPods-rn060-tvOS.a */; };
 		8C4A3B1C67552E6F5D22C094 /* libPods-rn060Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C70CE2014B3439A56597A862 /* libPods-rn060Tests.a */; };
 		8E82A6DD9C2F77174885DFDB /* libPods-rn060.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBC927C354B2707D4234355 /* libPods-rn060.a */; };
+		9C36EE4022CFBC59007DC936 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C36EE3F22CFBC59007DC936 /* AppCenter-Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		4AC217B14655BA7CDBAADD05 /* Pods-rn060-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn060-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rn060-tvOSTests/Pods-rn060-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5440DCB4F82E49A1E10FAC9B /* libPods-rn060-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rn060-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A121F55FE9326912A7BC6F8 /* Pods-rn060.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn060.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rn060/Pods-rn060.debug.xcconfig"; sourceTree = "<group>"; };
+		9C36EE3F22CFBC59007DC936 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "rn060/AppCenter-Config.plist"; sourceTree = "<group>"; };
 		A252C742175726F4AED6F5A8 /* Pods-rn060.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn060.release.xcconfig"; path = "Pods/Target Support Files/Pods-rn060/Pods-rn060.release.xcconfig"; sourceTree = "<group>"; };
 		B7A4E7200168493AEE1D56C4 /* Pods-rn060Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rn060Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rn060Tests/Pods-rn060Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C70CE2014B3439A56597A862 /* libPods-rn060Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rn060Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* rn060 */ = {
 			isa = PBXGroup;
 			children = (
+				9C36EE3F22CFBC59007DC936 /* AppCenter-Config.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -337,6 +340,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				9C36EE4022CFBC59007DC936 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
