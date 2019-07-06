@@ -11,9 +11,9 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 #import <AppCenterReactNativeShared/AppCenterReactNativeShared.h>
-#import "AppCenterReactNative.h"
-#import "AppCenterReactNativeAnalytics.h"
-#import "AppCenterReactNativeCrashes.h"
+#import <AppCenterReactNative.h>
+#import <AppCenterReactNativeAnalytics.h>
+#import <AppCenterReactNativeCrashes.h>
 @import AppCenter;
 
 @implementation AppDelegate
