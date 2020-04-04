@@ -956,8 +956,8 @@ acorn-walk@^6.0.1:
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-6.1.1.tgz#d363b66f5fac5f018ff9c3a1e7b6f8e310cc3913"
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
 
 acorn@^6.0.1, acorn@^6.0.7:
   version "6.1.1"
@@ -1064,15 +1064,9 @@ appcenter-link-scripts@2.1.0:
     which "^1.2.11"
     xcode "^2.0.0"
 
-appcenter@../../appcenter/react-native/packages/appcenter-2.1.0.tgz:
+appcenter@../../appcenter/react-native/packages/appcenter-2.1.0.tgz, appcenter@2.1.0:
   version "2.1.0"
   resolved "../../appcenter/react-native/packages/appcenter-2.1.0.tgz#768298ab7b86d7c28d9345b812002f544e404929"
-  dependencies:
-    appcenter-link-scripts "2.1.0"
-
-appcenter@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/appcenter/-/appcenter-2.1.0.tgz#e378c6270030edf0a57b96010371d3b6ba8e9ff4"
   dependencies:
     appcenter-link-scripts "2.1.0"
 
