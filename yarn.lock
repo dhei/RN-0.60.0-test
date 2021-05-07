@@ -1064,15 +1064,9 @@ appcenter-link-scripts@2.1.0:
     which "^1.2.11"
     xcode "^2.0.0"
 
-appcenter@../../appcenter/react-native/packages/appcenter-2.1.0.tgz:
+appcenter@../../appcenter/react-native/packages/appcenter-2.1.0.tgz, appcenter@2.1.0:
   version "2.1.0"
   resolved "../../appcenter/react-native/packages/appcenter-2.1.0.tgz#768298ab7b86d7c28d9345b812002f544e404929"
-  dependencies:
-    appcenter-link-scripts "2.1.0"
-
-appcenter@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/appcenter/-/appcenter-2.1.0.tgz#e378c6270030edf0a57b96010371d3b6ba8e9ff4"
   dependencies:
     appcenter-link-scripts "2.1.0"
 
@@ -5301,8 +5295,8 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
 ua-parser-js@^0.7.18:
-  version "0.7.20"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
 
 uglify-es@^3.1.9:
   version "3.3.9"
